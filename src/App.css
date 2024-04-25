@@ -1,3 +1,19 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.spread-out {
+  transition: letter-spacing 0.3s ease-in-out;
+}
+
+.spread-out:hover {
+  letter-spacing: 0.1em;
+}
+
+.move-up {
+  transition: transform 0.3s ease-in-out;
+}
+
+.move-up:hover {
+  transform: translateY(-5px);
+}

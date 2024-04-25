@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.css", "./src/**/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["NoyhR", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
